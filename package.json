@@ -1,0 +1,22 @@
+{
+  "name": "flathead",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["json", "fast", "parser", "stringify", "codegen", "schema"],
+  "license": "ISC",
+  "description": "Schema-aware JSON codegen. ~4x faster parse, ~7x faster stringify.",
+  "files": [
+    "index.js",
+    "index.mjs",
+    "src/"
+  ]
+}
